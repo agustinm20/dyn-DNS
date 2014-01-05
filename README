@@ -1,1 +1,14 @@
 Pequeño software para utilizar dominios apuntados a una IP dinámica
+
+Primer paso: Registrarse en CDMON.COM, ir a la opción "DNS Gratuito" y luego a "DNS Dinámico", copiar los DNS que figuran abajo a la derecha y asignarlos al dominio que usted quiera.
+
+Segundo paso: Agregar el dominio en la opción "Nuevo dominio en el DNS dinámico", seleccionar el dominio agregado en la lista de dominios y clickear en "Gestionar". 
+
+Tercer paso: En la opción "Configure su dominio", seleccionar la primer opción ("Asocia un usuario al registro"). Buscar la opción "Rellene los campos para crear un usuario del servidor DNS dinámico", rellene los datos con un usuario que usted quiera y ponga "Guardar" (guarde el usuario y password).
+
+Cuarto paso: Instalar dyn-DNS en la computadora que quiera apuntar su dominio, y en los campos usuario y contraseña escriba los anteriormente creados en CDMON.COM, clickee actualizar y listo.
+
+dyn-DNS se refresca cada cierta cantidad de tiempo de forma automática, por lo que si cambia la IP de la computadora dyn-DNS se actualizará.
+
+
+Construído en C# con WPF en Visual Studio 2010 SP1.
