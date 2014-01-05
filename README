@@ -1,6 +1,6 @@
 dyn-DNS for dinamyc IP and CDMON services
 
-<b>dyn-DNS para IP dinámicas utilizando los servicios de CDMON.</b>
+<h2>dyn-DNS para IP dinámicas utilizando los servicios de CDMON.</h2>
 
 
 Primer paso: Registrarse en CDMON.COM, ir a la opción "DNS Gratuito" y luego a "DNS Dinámico", copiar los DNS que figuran abajo a la derecha y asignarlos al dominio que usted quiera.
