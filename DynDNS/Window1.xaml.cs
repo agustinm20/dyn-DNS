@@ -329,40 +329,24 @@ namespace DynDNS
             try
             {
               
-	        /*    string servidor = "mail.dityc.com.ar";
-	           
-	            MailMessage mensaje = new MailMessage(
-	               "agustin@dityc.com.ar",
-                   "agustin@dityc.com.ar",
-	               "DynDNS-DITyC",
-	               asunto.ToString());
-	 
-	          
-	            SmtpClient cliente = new SmtpClient(servidor);
-                
-	            cliente.Credentials = CredentialCache.DefaultNetworkCredentials;
-	            cliente.Send(mensaje);*/
-
-
-
-                string mailUser = "info@dityc.com.ar";
-                string mailPassword = "1593576428";
-                string from = "info@dityc.com.ar";
-                string smtpServer = "mail.dityc.com.ar";
+	      
+                string mailUser = "from@mail.com.ar";
+                string mailPassword = "password-from";               
+                string smtpServer = "mail.mail.com.ar";
                 string smtpPort = "25";
                 string body = "Hola, se ha cambiado la IP dinámica del usuario " + user +
                               "<br><br>" + asunto + "<br><br>Saludos.";
 
                 MailMessage mail = new MailMessage()
                 {
-                    From = new MailAddress(from, "DynDNS-DITyC"),
+                    From = new MailAddress(mailUser, "Dyn-DNS"),
                     Body = body,
-                    Subject = "Actualización de IP - DynDNS-DITyC",
+                    Subject = "Actualización de IP - Dyn-DNS",
                     IsBodyHtml = true,
                 };
 
-                mail.To.Add(new MailAddress("agustin@dityc.com.ar", "Agustin Marques"));
-                mail.To.Add(new MailAddress("info@dityc.com.ar", "Luis Briones"));
+                mail.To.Add(new MailAddress("to@mail.com.ar", "Nombre"));
+               
                 SmtpClient smtp = new SmtpClient();
                 smtp.Host = smtpServer;
                 smtp.Port = Convert.ToInt32(smtpPort);
