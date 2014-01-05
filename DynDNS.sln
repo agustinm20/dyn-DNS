@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynDNS", "DynDNS\DynDNS.csproj", "{16137854-02BD-41CE-9816-FC9BD86B2980}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupDynDNS", "SetupDynDNS\SetupDynDNS.vdproj", "{9592E7AF-4E41-4154-A5FA-40B252D49E2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16137854-02BD-41CE-9816-FC9BD86B2980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16137854-02BD-41CE-9816-FC9BD86B2980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16137854-02BD-41CE-9816-FC9BD86B2980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16137854-02BD-41CE-9816-FC9BD86B2980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9592E7AF-4E41-4154-A5FA-40B252D49E2A}.Debug|Any CPU.ActiveCfg = Debug
+		{9592E7AF-4E41-4154-A5FA-40B252D49E2A}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal

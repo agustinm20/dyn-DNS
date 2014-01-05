@@ -1,0 +1,30 @@
+﻿<Window x:Class="DynDNS.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    
+    Title="DynDNS-DITyC" Height="295" Width="300" Name="PantallaPrincipal" ResizeMode="CanMinimize"
+    VerticalAlignment="Stretch" WindowStartupLocation="CenterScreen" 
+    WindowStyle="SingleBorderWindow" HorizontalAlignment="Center"
+    StateChanged="Window_StateChanged" IsVisibleChanged="Window_IsVisibleChanged"
+    WindowState="Normal"  BorderThickness="1" 
+    Loaded="Window_Loaded"  Closed="onClose">
+
+
+    <Grid ToolTip="DynDNS-DITyC" Height="251" Name="Grid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="89*" />
+            <ColumnDefinition Width="189*" />
+        </Grid.ColumnDefinitions>
+        <Button Margin="14.234,0,0,79" Name="btn_Actualizar" Height="28" VerticalAlignment="Bottom" Click="btn_Actualizar_Click" Grid.Column="1" HorizontalAlignment="Left" Width="57.766" TabIndex="2">Actualizar</Button>
+        <Label Margin="0,94,67.64,0" Name="lbl_IP_new" Grid.Column="1" Height="25" VerticalAlignment="Top"></Label>
+        <Label Margin="17,95,7,0" Name="label1" Height="24" VerticalAlignment="Top">IP Actual:</Label>
+        <Label Margin="41,12,6,0" Name="label2" Height="23" VerticalAlignment="Top">User:</Label>
+        <Label Margin="41,41,6,0" Name="label3" Height="23" VerticalAlignment="Top">Pass:</Label>
+        <Label Margin="7,70,0,0" Name="label4" Height="28" VerticalAlignment="Top">IP Anterior:</Label>
+        <Label Margin="87,70,69,0" Name="lbl_IP_ant" VerticalAlignment="Top" Height="28" Grid.ColumnSpan="2"></Label>
+        <Label Height="61" Margin="12,0,0,12" Name="lbl_info" VerticalAlignment="Bottom" Grid.ColumnSpan="2" HorizontalAlignment="Left" Width="252"></Label>
+        <Label Grid.ColumnSpan="2" Height="49" Margin="12,0,12,-21" Name="lbl_time" VerticalAlignment="Bottom"></Label>
+        <TextBox Grid.Column="1" Height="23" Margin="0,12,67.64,0" Name="txt_user" VerticalAlignment="Top" />
+        <TextBox Grid.Column="1" Height="23" Margin="0,46,67.64,0" Name="txt_pass" VerticalAlignment="Top" />
+    </Grid>
+</Window>
