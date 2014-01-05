@@ -8,6 +8,9 @@ Tercer paso: En la opción "Configure su dominio", seleccionar la primer opción
 
 Cuarto paso: Instalar dyn-DNS en la computadora que quiera apuntar su dominio, y en los campos usuario y contraseña escriba los anteriormente creados en CDMON.COM, clickee actualizar y listo.
 
+NOTA: En el archivo Windows1.xaml en la función "SendMail" tiene para configurar un mail asi se envia cada vez que cambia la IP dinámica.
+
+
 dyn-DNS se refresca cada cierta cantidad de tiempo de forma automática, por lo que si cambia la IP de la computadora dyn-DNS se actualizará.
 
 
