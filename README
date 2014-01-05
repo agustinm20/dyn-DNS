@@ -12,3 +12,5 @@ dyn-DNS se refresca cada cierta cantidad de tiempo de forma automática, por lo 
 
 
 Construído en C# con WPF en Visual Studio 2010 SP1.
+
+Hecho para www.dityc.com
